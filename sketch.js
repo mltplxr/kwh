@@ -1,14 +1,14 @@
 let counter = 0;
 
 function setup() {
-  createCanvas(80, 20);
+  createCanvas(60, 11);
   textAlign(CENTER, CENTER);
   textSize(10);
   textFont('monospace');
 } 
 
 function draw() {
-  background(220); 
+  background(250); 
   counter += 0.01; 
   
   fill(0);
