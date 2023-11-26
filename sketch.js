@@ -1,6 +1,6 @@
 let counter = 0;
 function setup() {
-createCanvas(400, 200);
+createCanvas(200, 200);
 textAlign(CENTER, CENTER);
 textSize(10);
 textFont('monospace');
