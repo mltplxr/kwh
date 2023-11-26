@@ -8,13 +8,13 @@ function setup() {
 }
 
 function draw() {
-  background(250, 250, 15, 50); 
+  background(250, 0); 
 
   counter += 0.01;
   
   push(); // Save drawing state
   resetMatrix(); // Reset transform
-  fill(255); 
+  
   rect(0, 0, width, height); // Draw white rect over everything
   fill(0);
   text(counter.toFixed(2) + ' kWh', width/2, height/2);
