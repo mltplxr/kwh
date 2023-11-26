@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-  background(255, 100);
+  background(255, 50);
 
   counter += 0.01; // You can adjust the increment value
 
