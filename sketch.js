@@ -2,7 +2,7 @@ let counter = 0;
 function setup() {
 createCanvas(200, 200);
 textAlign(CENTER, CENTER);
-textSize(10);
+textSize(20);
 textFont('monospace');
 }
 function draw() {
