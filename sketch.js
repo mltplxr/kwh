@@ -2,7 +2,7 @@ let counter = 0;
 
 function setup() {
   createCanvas(400, 200);
-  background(255, 100); // Transparent background
+  background(255, 50); // Transparent background
   textAlign(CENTER, CENTER);
   textSize(32);
   textFont('monospace');
