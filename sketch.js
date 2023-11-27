@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
   
-  background(255, 30); 
+  background(255, 60); 
 
   counter += 0.01;
   
